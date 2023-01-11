@@ -1,0 +1,22 @@
+.searchclass{
+     padding: 10px;
+     width: 400px;
+     font-size: 15px;
+     border: 2px solid black;
+     border-radius: 6px 0 0 6px;
+ }
+ .search_box{
+     display: flex;
+     margin-left: 30px;
+ }
+ .search_box i{
+     background-color: black;
+     color: white;
+     padding: 14px;
+     font-size: 15px;
+     border-radius: 0 6px 6px 0;
+     cursor: pointer;
+ }
+ nav{
+     background-color: #EFF1F3;
+ }
