@@ -9,6 +9,7 @@ import { RecommendationsComponent } from './components/recommendations/recommend
 import { LoadMoreButtonComponent } from './components/load-more-button/load-more-button.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SocialMediaButtonGroupComponent } from './components/social-media-button-group/social-media-button-group.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SocialMediaButtonGroupComponent } from './components/social-media-butto
     RecommendationsComponent,
     LoadMoreButtonComponent,
     FooterComponent,
-    SocialMediaButtonGroupComponent
+    SocialMediaButtonGroupComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
