@@ -8,6 +8,7 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { RecommendationsComponent } from './components/recommendations/recommendations.component';
 import { LoadMoreButtonComponent } from './components/load-more-button/load-more-button.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SocialMediaButtonGroupComponent } from './components/social-media-button-group/social-media-button-group.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CategoriesComponent,
     RecommendationsComponent,
     LoadMoreButtonComponent,
-    FooterComponent
+    FooterComponent,
+    SocialMediaButtonGroupComponent
   ],
   imports: [
     BrowserModule,
