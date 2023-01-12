@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { RecommendationsComponent } from './components/recommendations/recommendations.component';
 import { LoadMoreButtonComponent } from './components/load-more-button/load-more-button.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LoadMoreButtonComponent } from './components/load-more-button/load-more
     NavbarComponent,
     CategoriesComponent,
     RecommendationsComponent,
-    LoadMoreButtonComponent
+    LoadMoreButtonComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

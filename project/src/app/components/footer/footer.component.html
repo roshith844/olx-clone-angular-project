@@ -1,0 +1,8 @@
+<div class="d-flex justify-content-around">
+     <div class="item" *ngFor="let item of lists">
+          <h1 class="link-heading">{{ item.heading }}</h1>
+          <div  *ngFor="let link of item.links">
+               <a class="link" href="">{{link}}</a>
+          </div>
+     </div>
+</div>
