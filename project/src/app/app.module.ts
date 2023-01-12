@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { RecommendationsComponent } from './components/recommendations/recommendations.component';
+import { LoadMoreButtonComponent } from './components/load-more-button/load-more-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CategoriesComponent,
-    RecommendationsComponent
+    RecommendationsComponent,
+    LoadMoreButtonComponent
   ],
   imports: [
     BrowserModule,
