@@ -17,6 +17,9 @@
      border-radius: 0 6px 6px 0;
      cursor: pointer;
  }
+ .searchLocation{
+   width: 320px;
+ }
  nav{
      background-color: #EFF1F3;
  }
