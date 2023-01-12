@@ -1,10 +1,13 @@
 <div class="container pt-3">
      <div class="row p-3">
-          <div class="card item m-3" *ngFor="let post of posts" >
-                    <img src= {{post.image}} class="card-img-top" alt="...">
-               <div class="card-body">
+          <div class="card item m-3 " *ngFor="let post of posts">
+               <div class="postImage">
+                    <img src= {{post.image}} class="card-img-top" alt="">
+               </div>
+                    
+               <div class="card-body mb-0">
                     <h5 class="card-title">{{ post.price | currency:'INR':'symbol':'3.0' }}</h5>
-                    <p class="card-text"> {{ post.model }}<br> {{ post.location }}</p>
+                    <p class="card-text"> {{ post.model }}<br>{{ post.name }} <br> {{ post.location }}</p>
                     <p class="text-end">Nov 12</p>
                </div>
           </div>

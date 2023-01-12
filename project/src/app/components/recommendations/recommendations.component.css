@@ -1,3 +1,6 @@
 .card,.item{
      width: 18rem;
 }
+.postImage img{
+height: 18rem;
+}
